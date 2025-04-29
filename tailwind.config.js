@@ -1,11 +1,24 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+// tailwind.config.js
+import { type Config } from "tailwindcss";
+
+const config: Config = {
   content: [
-    "./app/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}"
+    "./app/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./pages/**/*.{ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "pr-blue": "#2563eb",
+        "pr-darkblue": "#1e40af",
+        "pr-gray": "#1f2937",
+        "pr-light": "#f3f4f6",
+        "pr-lightblue": "#eff6ff",
+      },
+    },
   },
   plugins: [],
-}
+};
+
+export default config;

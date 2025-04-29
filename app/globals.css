@@ -20,3 +20,23 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.text-shadow {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center px-8 py-4 bg-green-600 hover:bg-green-700 text-white text-lg font-medium rounded-md transition;
+}
+
+/* globals.css */
+
+.section-title {
+  @apply text-3xl md:text-4xl font-bold text-center text-pr-gray mb-8;
+}
+
+/* globals.css */
+.section-container {
+  @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+}
+
