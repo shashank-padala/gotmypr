@@ -12,7 +12,7 @@ export default function HeroSection() {
             Discover Your Fastest Path to Canadian PR — Personalized to Your Profile.
           </h1>
           <p className="text-lg md:text-xl text-pr-gray/80 mb-8">
-            Upload your resume or connect your LinkedIn. We'll instantly map the immigration programs you're eligible for — and show how you can qualify for even more.
+            Upload your resume or connect your LinkedIn. We will instantly map the immigration programs you are eligible for — and show how you can qualify for even more.
           </p>
           <Link
             href="/onboarding"

@@ -59,7 +59,7 @@ export default function TestimonialSection() {
               key={testimonial.id}
               className="p-6 hover:shadow-md transition-all bg-white border border-gray-100"
             >
-              <div className="text-3xl text-pr-blue mb-4">"</div>
+              <div className="text-3xl text-pr-blue mb-4">&quot;</div>
               <p className="italic mb-6 text-pr-gray/90">{testimonial.quote}</p>
               <div className="flex items-center">
                 <div className="w-10 h-10 rounded-full bg-pr-blue/20 flex items-center justify-center text-pr-blue font-bold">
